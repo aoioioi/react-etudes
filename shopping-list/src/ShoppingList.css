@@ -1,0 +1,28 @@
+.ShoppingList {
+  margin: 4rem auto;
+  padding: 2rem 3rem 3rem;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  background-color: #e4e4e4;
+  max-width: 500px;
+}
+
+.ShoppingList ul {
+  margin-top: 2.5rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.ShoppingList h1 {
+  font-weight: normal;
+  font-size: 2.2rem;
+  padding-bottom: .8rem;
+  letter-spacing: 0.05rem;
+  border-bottom: 1px solid lightgrey;
+}
+
+.ShoppingList h1 span {
+  display: block;
+  font-size: 1rem;
+  margin-top: .6rem;
+}

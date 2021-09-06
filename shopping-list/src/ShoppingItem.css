@@ -1,0 +1,62 @@
+.ShoppingItem {
+  display: flex;
+  padding: 0.6rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Item-buttons {
+  flex-shrink: 0;
+}
+
+.Item-buttons button {
+  border: none;
+  font-size: 1rem;
+  margin: 0.2rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.Item-edit-form {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.Item-edit-form input {
+  flex-grow: 1;
+  border: none;
+  background-color: #f3f3f3;
+  margin-right: .6rem;
+  padding: .7rem 0.5rem;
+}
+
+.Item-edit-form button {
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: .7rem 2rem; 
+}
+
+.ShoppingItem.purchased {
+  opacity: 0.6;
+  position: relative;
+  transition: opacity 0.4s linear;
+}
+
+.ShoppingItem.purchased:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -0.5rem;
+  display: block;
+  width: 0%;
+  height: 2px;
+  background: #575757;
+  animation: strikeitem 0.5s ease-out 0s forwards;
+}
+
+@keyframes strikeitem {
+  to {
+    width: calc(100% + 1rem);
+  }
+}

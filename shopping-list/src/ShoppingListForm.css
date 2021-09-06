@@ -1,0 +1,33 @@
+.ShoppingListForm {
+  margin-top: 3.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ShoppingListForm label {
+  font-size: 1rem;
+}
+
+.ShoppingListForm input {
+  flex-grow: 1;
+  padding: 0.7rem 0.5rem;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  width: 300px;
+}
+
+label ~ #qty {
+  margin-left: 2.25rem;
+}
+
+.ShoppingListForm button {
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.4rem 2rem;
+  display: block !important;
+}
+
+.ShoppingListForm-btn {
+  margin-top: 1rem;
+}

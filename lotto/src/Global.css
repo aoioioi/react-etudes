@@ -1,0 +1,8 @@
+.Generic-container {
+  border: solid 2px grey;
+  padding: 1rem 0 2rem 0;
+  text-align: center;
+  margin: 1rem auto auto;
+  border-radius: 8px;
+  width: 40rem;
+}
